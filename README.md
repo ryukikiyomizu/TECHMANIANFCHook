@@ -16,12 +16,14 @@ process injection, an IAT patch, or a replacement for a Windows system DLL.
 
 1. Connect and configure AIC Pico. The CardIO HID interface must enumerate as
    VID `CAFF`, PID `400E`, usage page `FFCA`, usage `0001`.
-2. Run `dist/windows-x64/TechmaniaNfcProbe.exe --seconds 30`.
-3. Copy `TechmaniaNfcHook.dll` to
+2. Download `TechmaniaNfcHook.dll` and `TechmaniaNfcProbe.exe` from the
+   [latest release](https://github.com/ryukikiyomizu/TechmaniaNfcHook/releases/latest).
+3. Run `TechmaniaNfcProbe.exe --seconds 30`.
+4. Copy `TechmaniaNfcHook.dll` to
    `TECHMANIA/Assets/Plugins/x86_64/TechmaniaNfcHook.dll`.
-4. Add `unity/Runtime/TechmaniaNfcNative.cs` and
+5. Add `unity/Runtime/TechmaniaNfcNative.cs` and
    `unity/Runtime/NfcReaderService.cs` to the game project.
-5. Start and poll the service from the profile/session owner. Themes call only
+6. Start and poll the service from the profile/session owner. Themes call only
    the reader-neutral `tm.profile` functions described in
    [Theme hooks](docs/THEME-HOOKS.md).
 
@@ -36,7 +38,7 @@ remain available.
 - `tests/` - deterministic native tests
 - `unity/Runtime/` - safe managed P/Invoke boundary
 - `unity/Tests/` - Unity contract tests and integration documentation
-- `dist/windows-x64/` - ready-to-deploy x64 DLL and probe
+- GitHub Releases - ready-to-deploy x64 DLL, probe, and checksums
 - `docs/` - architecture, ABI, build, theme, and operating guides
 
 ## Documents
