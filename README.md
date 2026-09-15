@@ -160,6 +160,12 @@ Pico source or firmware is vendored here.
 TECHMANIA itself is maintained separately by the
 [TECHMANIA team](https://github.com/techmania-team/techmania).
 
+## Support
+
+If this project helped you, you could donate some coffee for me—no pressure :3
+
+[![Buy me a coffee](https://shieldcn.dev/badge/Buy%20me%20a-coffee-FFDD00.svg?variant=default&logo=buymeacoffee)](https://buymeacoffee.com/ryukikiyomizu)
+
 ## License
 
 Copyright © 2026 Ryuki. This source is available under a custom, permission-only
