@@ -1,6 +1,6 @@
 # Author
 
-[Ryuki](https://github.com/ryukiyomizuu)
+[Ryuki](https://github.com/ryukikiyomizu)
 
 ## Hardware and protocol reference
 
